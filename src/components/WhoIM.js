@@ -1,5 +1,4 @@
 import React from "react";
-import aidan1 from "../photos/aidan1.jpg";
 
 function WhoIM() {
   return (
@@ -23,11 +22,7 @@ function WhoIM() {
         </div>
       </div>
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center z-20">
-        <img
-          src={aidan1}
-          alt="Aidan Lozell"
-          className="lg:p-10 object-cover lg:w-2/4 w-full"
-        />
+       
       </div>
     </div>
   );

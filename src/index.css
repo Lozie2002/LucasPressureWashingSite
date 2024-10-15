@@ -6,13 +6,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #351e5f; /* color of the tracking area */
+  background: #707ee4; /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #4e0097; /* color of the scroll thumb */
+  background-color: #8591e7; /* color of the scroll thumb */
   border-radius: 5px; /* roundness of the scroll thumb */
-  border: 0.1px solid #4e0097; /* creates padding around scroll thumb */
+  border: 0.1px solid #8591e7; /* creates padding around scroll thumb */
 }
 .react-pdf__Page__textContent  {
  background: transparent !important;
