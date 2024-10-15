@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5347ce7.css",
-    "main.js": "/static/js/main.91178970.js",
+    "main.css": "/static/css/main.1ed00d15.css",
+    "main.js": "/static/js/main.c86fea77.js",
+    "static/media/Map.png": "/static/media/Map.e9207428052cd87d6673.png",
+    "static/media/driveway.png": "/static/media/driveway.373f623592f2aad37509.png",
+    "static/media/background1.jpg": "/static/media/background1.6c15472d3d2743cea42c.jpg",
+    "static/media/background2.jpg": "/static/media/background2.305e76e7c75a932e46c0.jpg",
+    "static/media/LushCleaningLogo.png": "/static/media/LushCleaningLogo.b9427bd6697e83cc905e.png",
     "index.html": "/index.html",
-    "main.b5347ce7.css.map": "/static/css/main.b5347ce7.css.map",
-    "main.91178970.js.map": "/static/js/main.91178970.js.map"
+    "main.1ed00d15.css.map": "/static/css/main.1ed00d15.css.map",
+    "main.c86fea77.js.map": "/static/js/main.c86fea77.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5347ce7.css",
-    "static/js/main.91178970.js"
+    "static/css/main.1ed00d15.css",
+    "static/js/main.c86fea77.js"
   ]
 }
