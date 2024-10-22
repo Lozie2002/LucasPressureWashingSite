@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-} from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 import { FiUser } from "react-icons/fi";
 import { RiMenu3Fill } from "react-icons/ri";
-import { MdClose } from "react-icons/md";
+import { MdClose, MdOutlineCleaningServices, MdOutlineContactMail } from "react-icons/md";
+import { BsImages } from "react-icons/bs";
 import MobileNav from "./MobileNav";
-import logo from "../photos/LushCleaningLogo.png"; // Importing the logo image
+import logo from "../../photos/LushCleaningLogo.png"; // Importing the logo image
 
 function Header() {
   const navigate = useNavigate();
@@ -42,6 +40,7 @@ function Header() {
           className="cursor-pointer w-30 h-16"
           onClick={() => navigate("/")} // Navigate to the homepage on click
         />
+        <h1 className="text-white text-2xl font-bold ml-4"> Lush Cleaning</h1>
       </span>
 
       {/* Desktop navigation links */}
@@ -67,20 +66,30 @@ function Header() {
           </li>
           <li className="relative group">
             <Link
-              to={"/work-experience"}
-              className="flex gap-1 items-center justify-center cursor-pointer text-base lg:text-lg font-semibold relative before:absolute before:rounded-md before:left-0 before:-bottom-1 before:w-0 transition-all before:duration-200 before:h-[4px] before:bg-purple-500 group-hover:before:w-full"
+              to={"/gallery"}
+              className="flex gap-1 items-center justify-center cursor-pointer text-base lg:text-lg font-semibold relative before:absolute before:left-0 before:-bottom-1 before:w-0 transition-all before:duration-200 before:h-[4px] before:bg-purple-500 group-hover:before:w-full"
             >
-              <FiUser fontSize={20} />
-              <span className="">Work Experience</span>
+              <BsImages fontSize={20} />
+              <span className="">Gallery</span>
             </Link>
           </li>
           <li className="relative group">
             <Link
-              to={"/projects"}
-              className="flex gap-1 items-center justify-center cursor-pointer text-base lg:text-lg font-semibold relative before:absolute before:rounded-md before:left-0 before:-bottom-1 before:w-0 transition-all before:duration-200 before:h-[4px] before:bg-purple-500 group-hover:before:w-full"
+              to={"/services"}
+              className="flex gap-1 items-center justify-center cursor-pointer text-base lg:text-lg font-semibold relative before:absolute before:left-0 before:-bottom-1 before:w-0 transition-all before:duration-200 before:h-[4px] before:bg-purple-500 group-hover:before:w-full"
             >
-              <AiOutlineFundProjectionScreen fontSize={20} />
+              <MdOutlineCleaningServices fontSize={20} />
               <span className="">Services</span>
+            </Link>
+          </li>
+          {/* Contact section */}
+          <li className="relative group">
+            <Link
+              to={"/contact"}
+              className="flex gap-1 items-center justify-center cursor-pointer text-base lg:text-lg font-semibold relative before:absolute before:left-0 before:-bottom-1 before:w-0 transition-all before:duration-200 before:h-[4px] before:bg-purple-500 group-hover:before:w-full"
+            >
+              <MdOutlineContactMail fontSize={20} />
+              <span className="">Contact</span>
             </Link>
           </li>
         </ul>

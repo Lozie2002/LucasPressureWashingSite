@@ -1,10 +1,11 @@
 import React from "react";
-import Serivces from "../components/Services/serviceDetails";
+import ContactForm from "../components/Contact/ContactPage";
+
 function About() {
   return (
     <div className="bg-white min-h-screen">
-      <Serivces />
- 
+      <ContactForm />
+\
       
      
     </div>

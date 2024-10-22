@@ -21,7 +21,7 @@ function StarRating({ rating }) {
 function Interduce() {
     return (
         <div
-        className="flex items-center justify-center w-full bg-gradient-to-r from-blue-400 to-blue-700" // Set background gradient using Tailwind classes
+        className="flex items-center justify-center w-full bg-white" // Set background gradient using Tailwind classes
         style={{
             minHeight: "30vh", // Set a smaller minimum height
             paddingBottom: "2rem", // Adjust bottom padding to prevent overflow

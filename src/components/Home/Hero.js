@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import logo from "../photos/LushCleaningLogo.png"; // Importing the logo image
-import background1 from "../newPhotos/background1.jpg"; // Importing the background image
-import background2 from "../newPhotos/background2.jpg"; // Importing the background image
+import logo from "../../photos/LushCleaningLogo.png"; // Importing the logo image
+import background1 from "../../FPhotos/ExteriorCleaning.jpg"; // Importing the background image
+import background2 from "../../FPhotos/SurfaceCleaning.jpg"; // Importing the background image
 
 function Hero() {
   // State to manage the current background image
@@ -24,25 +24,25 @@ function Hero() {
 
   return (
     <div
-      className="bg-cover bg-center h-[80vh] flex flex-wrap items-center justify-center flex-col lg:flex-row"
+      className="bg-cover bg-center h-[80vh] flex flex-col items-center justify-center lg:flex-row"
       style={{ backgroundImage: `url(${currentBackground})` }} // Use the current background image
     >
       {/* Left side: Text */}
-      <div className="w-full lg:w-1/2 h-full flex items-center justify-center flex-col mt-10">
-        <div className="flex gap-5 items-center lg:items-start justify-center flex-col">
-          <h3 className="flex text-white text-4xl gap-2">Welcome to</h3>
-          <span className="flex text-white text-4xl lg:text-5xl gap-2 font-bold">
-            <p className="text-[black]">LUSH CLEANING!!</p>
-          </span>
+      <div className="w-full lg:w-1/2 h-full flex items-center justify-center flex-col mt-6 lg:mt-10 px-4">
+        <div className="flex flex-col items-center lg:items-start gap-2">
+          <h3 className="text-white text-2xl lg:text-4xl">Welcome to</h3>
+          <p className="text-[black] text-3xl lg:text-5xl font-bold">
+            LUSH CLEANING!!
+          </p>
         </div>
       </div>
 
       {/* Right side: Image */}
-      <div className="w-full lg:w-1/2 h-full flex items-center justify-center flex-col mt-10">
+      <div className="w-full lg:w-1/2 h-full flex items-center justify-center mt-6 lg:mt-10">
         <img
           src={logo} // Replace with the correct image path
-          alt="Aidan Lozell"
-          className="w-1/3 lg:w-1/3 h-auto rounded-full"
+          alt="Lush Cleaning Logo"
+          className="w-1/2 lg:w-1/3 h-auto rounded-full shadow-2xl"
         />
       </div>
     </div>

@@ -1,10 +1,10 @@
 import React from "react";
-import PressureWashingImage from "../photos/driveway.png";
-import ConcreteSealingImage from "../photos/driveway.png";
-import WindowCleaningImage from "../photos/driveway.png";
-import GutterCleaningImage from "../photos/driveway.png";
-import SoftWashingImage from "../photos/driveway.png";
-import RoofWashingSolarCleaningImage from "../photos/driveway.png"; // Combined image
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import PressureWashingPhoto from "../../FPhotos/ExteriorCleaning.jpg";
+import ConcreteSealingPhoto from "../../FPhotos/SideWalkCleaning2After.jpg";
+import WindowCleaningPhoto from "../../FPhotos/WindowCleaning.jpg";
+import RoofCleaningPhoto1 from "../../FPhotos/RoofCleaning1.jpg";
+import SurfaceCleaningPhoto from "../../FPhotos/SurfaceCleaning.jpg";
 
 function Interduce() {
     return (
@@ -24,13 +24,13 @@ function Interduce() {
 
                     {/* 2x3 Grid for Images and Services */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                        
+
                         {/* Pressure Washing */}
                         <section className="text-center">
                             <img
-                                src={PressureWashingImage}
+                                src={PressureWashingPhoto}
                                 alt="Pressure Washing"
-                                className="w-80 h-auto mx-auto mb-4 rounded-lg"
+                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
                             />
                             <h1 className="text-2xl md:text-3xl font-semibold text-black mb-2">
                                 Pressure Washing
@@ -46,9 +46,9 @@ function Interduce() {
                         {/* Concrete Sealing */}
                         <section className="text-center">
                             <img
-                                src={ConcreteSealingImage}
+                                src={ConcreteSealingPhoto}
                                 alt="Concrete Sealing"
-                                className="w-80 h-auto mx-auto mb-4 rounded-lg"
+                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
                             />
                             <h1 className="text-2xl md:text-3xl font-semibold text-black mb-2">
                                 Concrete Sealing
@@ -64,9 +64,9 @@ function Interduce() {
                         {/* Window Cleaning */}
                         <section className="text-center">
                             <img
-                                src={WindowCleaningImage}
+                                src={WindowCleaningPhoto}
                                 alt="Window Cleaning"
-                                className="w-80 h-auto mx-auto mb-4 rounded-lg"
+                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
                             />
                             <h1 className="text-2xl md:text-3xl font-semibold text-black mb-2">
                                 Window Cleaning
@@ -79,61 +79,50 @@ function Interduce() {
                             </p>
                         </section>
 
-                        {/* Gutter Cleaning */}
+                        {/* Roof Cleaning */}
                         <section className="text-center">
                             <img
-                                src={GutterCleaningImage}
-                                alt="Gutter Cleaning"
-                                className="w-80 h-auto mx-auto mb-4 rounded-lg"
+                                src={RoofCleaningPhoto1} // You can change this to RoofCleaningPhoto2 or RoofCleaningPhoto3 as needed
+                                alt="Roof Cleaning"
+                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
                             />
                             <h1 className="text-2xl md:text-3xl font-semibold text-black mb-2">
-                                Gutter Cleaning
+                                Roof Cleaning
                             </h1>
                             <p className="font-poppins text-lg md:text-xl text-black">
-                                Gutter cleaning helps prevent water damage by ensuring rainwater flows freely through your drainage system.
+                                Roof cleaning removes dirt, algae, and moss, enhancing your roof's appearance and extending its lifespan.
                             </p>
                             <p className="font-poppins text-lg md:text-xl text-black mt-2">
-                                <strong>Average Price for Gutter Cleaning: $120</strong>
+                                <strong>Average Price for Roof Cleaning: $250</strong>
                             </p>
                         </section>
 
-                        {/* Soft Washing */}
+                        {/* Surface Cleaning */}
                         <section className="text-center">
                             <img
-                                src={SoftWashingImage}
-                                alt="Soft Washing"
-                                className="w-80 h-auto mx-auto mb-4 rounded-lg"
+                                src={SurfaceCleaningPhoto}
+                                alt="Surface Cleaning"
+                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
                             />
                             <h1 className="text-2xl md:text-3xl font-semibold text-black mb-2">
-                                Soft Washing
+                                Surface Cleaning
                             </h1>
                             <p className="font-poppins text-lg md:text-xl text-black">
-                                Soft washing removes contaminants, mildew, stains, and algae from your home’s exterior surfaces.
+                                Surface cleaning provides a deep clean for patios, driveways, and other outdoor surfaces.
                             </p>
                             <p className="font-poppins text-lg md:text-xl text-black mt-2">
-                                <strong>Average Price for Soft Washing: $180</strong>
-                            </p>
-                        </section>
-
-                        {/* Roof & Solar Panel Cleaning */}
-                        <section className="text-center">
-                            <img
-                                src={RoofWashingSolarCleaningImage}
-                                alt="Roof & Solar Panel Cleaning"
-                                className="w-80 h-auto mx-auto mb-4 rounded-lg"
-                            />
-                            <h1 className="text-2xl md:text-3xl font-semibold text-black mb-2">
-                                Roof & Solar Panel Cleaning
-                            </h1>
-                            <p className="font-poppins text-lg md:text-xl text-black">
-                                We provide roof washing to remove mould and mildew, and solar panel cleaning to improve energy efficiency (up to 20%).
-                            </p>
-                            <p className="font-poppins text-lg md:text-xl text-black mt-2">
-                                <strong>Average Price for Roof & Solar Panel Cleaning: $250</strong>
+                                <strong>Average Price for Surface Cleaning: $180</strong>
                             </p>
                         </section>
 
                     </div>
+
+                    {/* Single "See More Information" Button */}
+                    <Link to="/services" className="mt-8 inline-block">
+                        <button className="bg-purple-500 text-white font-semibold py-2 px-4 rounded hover:bg-purple-600 transition duration-300">
+                            See More Information
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

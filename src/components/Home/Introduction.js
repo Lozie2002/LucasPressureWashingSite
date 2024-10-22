@@ -17,8 +17,12 @@ function Interduce() {
                         Who Are We
                     </h2>
                     <p className="font-poppins text-lg md:text-xl text-black pt-5 leading-relaxed max-w-[800px]">
-                        Welcome to <strong>Lush Cleaning</strong>, a professional cleaning company that provides a range of cleaning services to the Sutherland Shire and surrounding areas. We are a family-owned and operated business that prides itself on providing high-quality service at an affordable price. Our team of experienced cleaners is dedicated to delivering exceptional results, ensuring that your home or office is left sparkling clean. Whether you need a one-off clean or regular cleaning services, we have the expertise and equipment to get the job done. 
-                    </p>
+                    I'm Lukas Argerakis, the founder and owner of Lush Exterior Cleaning, 
+          established in 2022. At just 17 years old, I’m a young entrepreneur passionate about making homes and businesses shine. 
+          My journey began after being inspired by window cleaning videos on social media. Today, I offer a range of services, 
+          including pressure washing and window cleaning, all designed to enhance the curb appeal of your property. With a strong commitment to quality, 
+          attention to detail, and customer satisfaction, I strive to deliver outstanding results every time. Whether you're looking to revitalize your home or 
+          business exterior, I'm here to help!                    </p>
                     <p className="font-poppins text-lg md:text-xl text-black leading-relaxed max-w-[800px] mt-4">
                         Contact us today to find out more about our services and how we can help you keep your space clean and tidy.
                     </p>

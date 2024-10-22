@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Introduction from "../components/Introduction";
-import Location from "../components/Location";
-import Services from "../components/servicesBasic";
-import Reviews from "../components/reviews";
+import Hero from "../components/Home/Hero";
+import Introduction from "../components/Home/Introduction";
+import Location from "../components/Home/Location";
+import Services from "../components/Home/servicesBasic";
+import Reviews from "../components/Home/reviews";
 
 function Home() {
   return (
