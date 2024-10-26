@@ -1,5 +1,5 @@
 import React from "react";
-import ExteriorCleaning from '../../Photos/ExteriorCleaning.jpg';
+//import ExteriorCleaning from '../../Photos/ExteriorCleaning.jpg';
 
 function WhoIM() {
   return (
@@ -36,11 +36,13 @@ function WhoIM() {
 
       {/* Right Side: Image Section */}
       <div className="w-full lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 z-20">
+        {/* Image 
         <img
           src={ExteriorCleaning}
           alt="Lush Exterior Cleaning"
           className="h-auto max-h-[500px] w-full object-cover rounded-lg shadow-lg"
         />
+        */}
       </div>
     </div>
   );
