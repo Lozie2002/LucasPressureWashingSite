@@ -1,11 +1,10 @@
 import React from "react";
-//import background1 from "../../Photos/ExteriorCleaning.jpg"; // Using a single background image
 
 function Hero() {
   return (
     <div
       className="bg-cover bg-center h-[80vh] flex flex-col items-center justify-center lg:flex-row"
-      style={{ backgroundImage: `url(${background1})` }} // Set a static background image
+    
     >
       {/* Left side: Text */}
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center flex-col mt-6 lg:mt-10 px-4">
