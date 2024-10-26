@@ -1,5 +1,5 @@
 import React from "react";
-import background1 from "../../Photos/ExteriorCleaning.jpg"; // Using a single background image
+//import background1 from "../../Photos/ExteriorCleaning.jpg"; // Using a single background image
 
 function Hero() {
   return (
