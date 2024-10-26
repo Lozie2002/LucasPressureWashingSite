@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
 import { FiUser } from "react-icons/fi";
 import { RiMenu3Fill } from "react-icons/ri";
 import { MdClose, MdOutlineCleaningServices, MdOutlineContactMail } from "react-icons/md";
 import { BsImages } from "react-icons/bs";
 import MobileNav from "./MobileNav";
-import logo from "../../Photos/LushCleaningLogo.png"; // Importing the logo image
 
 function Header() {
-  const navigate = useNavigate();
   const [showNav, setShowNav] = useState(false);
   const [scroll, setScrolled] = useState(false);
 
@@ -34,12 +32,7 @@ function Header() {
     >
       {/* Replacing name with logo */}
       <span className="md:w-1/3 lg:w-1/2 flex items-center justify-center py-5 px-2 relative">
-        <img
-          src={logo}
-          alt="Logo"
-          className="cursor-pointer w-30 h-16"
-          onClick={() => navigate("/")} // Navigate to the homepage on click
-        />
+       
         <h1 className="text-white text-2xl font-bold ml-4"> Lush Cleaning</h1>
       </span>
 
