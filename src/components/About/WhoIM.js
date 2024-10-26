@@ -1,5 +1,5 @@
 import React from "react";
-import ExteriorCleaning from "../../Photos/ExteriorCleaning.jpg"; // Importing the background image
+import ExteriorCleaning from '../../Photos/ExteriorCleaning.jpg';
 
 function WhoIM() {
   return (
