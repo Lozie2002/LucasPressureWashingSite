@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../Photos/LushCleaningLogo.png"; // Importing the logo image
 import background1 from "../../Photos/ExteriorCleaning.jpg"; // Using a single background image
 
 function Hero() {
@@ -28,11 +27,14 @@ function Hero() {
 
       {/* Right side: Image */}
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center mt-6 lg:mt-10">
+        {/* 
         <img
           src={logo}
           alt="Lush Cleaning Logo"
           className="w-1/2 lg:w-1/3 h-auto rounded-full shadow-2xl border-4 border-white"
+         
         />
+         */}
       </div>
     </div>
   );
