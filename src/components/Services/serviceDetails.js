@@ -1,11 +1,11 @@
 import React from "react";
-import PressureWashingPhoto from "../../Photos/ExteriorCleaning.jpg";
-import ConcreteSealingPhoto from "../../Photos/SideWalkCleaning2After.jpg";
-import WindowCleaningPhoto from "../../Photos/WindowCleaning.jpg";
-import RoofCleaningPhoto1 from "../../Photos/RoofCleaning1.jpg";
-import SurfaceCleaningPhoto from "../../Photos/SurfaceCleaning.jpg";
-import GutterCleaningPhotoNew1 from "../../Photos/RoofCleaningNew1.jpg";
-import GutterCleaningPhotoNew2 from "../../Photos/RoofCleaningNew2.jpg";
+// import PressureWashingPhoto from "../../Photos/ExteriorCleaning.jpg";
+// import ConcreteSealingPhoto from "../../Photos/SideWalkCleaning2After.jpg";
+// import WindowCleaningPhoto from "../../Photos/WindowCleaning.jpg";
+// import RoofCleaningPhoto1 from "../../Photos/RoofCleaning1.jpg";
+// import SurfaceCleaningPhoto from "../../Photos/SurfaceCleaning.jpg";
+// import GutterCleaningPhotoNew1 from "../../Photos/RoofCleaningNew1.jpg";
+// import GutterCleaningPhotoNew2 from "../../Photos/RoofCleaningNew2.jpg";
 
 function Services() {
   return (
@@ -28,7 +28,7 @@ function Services() {
           description="Pressure washing is an effective method to remove stubborn stains, grime, mould, and algae that can create slip hazards. This service is ideal for enhancing the curb appeal of your property."
           benefits="Improved safety, enhanced appearance, increased property value, and prevention of surface deterioration."
           process="We utilize high-pressure water jets to effectively clean a variety of surfaces including driveways, decks, and siding. Our skilled team ensures that every corner is thoroughly cleaned."
-          image={SurfaceCleaningPhoto}
+          // image={SurfaceCleaningPhoto}
         />
 
         {/* Concrete Sealing */}
@@ -37,7 +37,7 @@ function Services() {
           description="Sealing your concrete surfaces protects against water infiltration, moisture damage, and stains from pollutants such as oil and grease, ultimately preserving their integrity."
           benefits="Prolongs the lifespan of your concrete surfaces, enhances their color, prevents staining, and reduces maintenance costs over time."
           process="Our process includes cleaning the surface thoroughly, applying a high-quality sealant designed for durability, and ensuring proper curing for optimal results."
-          image={ConcreteSealingPhoto}
+          // image={ConcreteSealingPhoto}
         />
 
         {/* Window Cleaning */}
@@ -46,7 +46,7 @@ function Services() {
           description="Regular window cleaning not only enhances the natural light in your home but also prevents the buildup of grime and dirt that can degrade your windows over time."
           benefits="Enhanced natural light, improved aesthetics, extended lifespan of windows, and increased energy efficiency."
           process="We use a combination of traditional methods, such as squeegeeing, along with modern equipment for streak-free results that leave your windows crystal clear."
-          image={WindowCleaningPhoto}
+          // image={WindowCleaningPhoto}
         />
 
         {/* Gutter Cleaning */}
@@ -55,7 +55,7 @@ function Services() {
           description="Clogged gutters can lead to serious water damage, which is why regular gutter cleaning is essential. It ensures that rainwater flows freely, protecting your home from potential damage."
           benefits="Prevents water damage, pest infestations, reduces the risk of mould growth, and saves you from costly repairs in the long run."
           process="Our team carefully removes debris from gutters and downspouts, ensuring proper flow and functionality. We also inspect for damages or areas that may need repairs."
-          images={[GutterCleaningPhotoNew1, GutterCleaningPhotoNew2]} // For multiple images
+          // images={[GutterCleaningPhotoNew1, GutterCleaningPhotoNew2]} // For multiple images
         />
 
         {/* House Washing */}
@@ -64,7 +64,7 @@ function Services() {
           description="Soft washing is a gentle yet effective method to clean your house’s exterior, removing contaminants such as mildew and stains while being safe for delicate surfaces."
           benefits="Safe for delicate surfaces, prolongs the lifespan of your paint and siding, and significantly enhances curb appeal."
           process="We utilize low-pressure water combined with specialized detergents to safely and effectively clean surfaces without damaging them."
-          image={PressureWashingPhoto}
+          // image={PressureWashingPhoto}
         />
 
         {/* Roof Washing */}
@@ -73,7 +73,7 @@ function Services() {
           description="Our roof washing service is designed to remove harmful mould and mildew, helping to preserve the structural integrity of your roof while enhancing its appearance."
           benefits="Extends the lifespan of your roof, improves energy efficiency by reflecting sunlight, and significantly boosts your home's aesthetic appeal."
           process="We use soft washing techniques along with eco-friendly products to safely clean roofs without causing any damage."
-          image={RoofCleaningPhoto1}
+          // image={RoofCleaningPhoto1}
         />
       </div>
     </div>

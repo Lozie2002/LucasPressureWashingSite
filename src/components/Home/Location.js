@@ -1,5 +1,5 @@
 import React from "react";
-import MapImage from "../../Photos/Map.png";
+// import MapImage from "../../Photos/Map.png";
 
 function Interduce() {
     return (
@@ -16,16 +16,18 @@ function Interduce() {
                     </p>
                     <p className="font-poppins text-2xl text-black pt-5 max-w-[1000px]">
                         Call Us on:
-                            0455 555 555
-                        
+                        <br />
+                        0455 555 555
+                        <br />
                         to see if we service your area.
                     </p>
                 </div>
-                <img
+                {/* Commenting out the Map image */}
+                {/* <img
                     src={MapImage}
                     alt="Map"
                     className="w-full h-auto object-cover rounded-lg mt-6"
-                />
+                /> */}
             </div>
         </section>
     );

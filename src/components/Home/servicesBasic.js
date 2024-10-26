@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import PressureWashingPhoto from "../../Photos/ExteriorCleaning.jpg";
-import ConcreteSealingPhoto from "../../Photos/SideWalkCleaning2After.jpg";
-import WindowCleaningPhoto from "../../Photos/WindowCleaning.jpg";
-import RoofCleaningPhoto1 from "../../Photos/RoofCleaning1.jpg";
-import SurfaceCleaningPhoto from "../../Photos/SurfaceCleaning.jpg";
+// import PressureWashingPhoto from "../../Photos/ExteriorCleaning.jpg";
+// import ConcreteSealingPhoto from "../../Photos/SideWalkCleaning2After.jpg";
+// import WindowCleaningPhoto from "../../Photos/WindowCleaning.jpg";
+// import RoofCleaningPhoto1 from "../../Photos/RoofCleaning1.jpg";
+// import SurfaceCleaningPhoto from "../../Photos/SurfaceCleaning.jpg";
 
 function Interduce() {
     return (
@@ -27,11 +27,11 @@ function Interduce() {
 
                         {/* Pressure Washing */}
                         <section className="text-center">
-                            <img
+                            {/* <img
                                 src={PressureWashingPhoto}
                                 alt="Pressure Washing"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            />
+                            /> */}
                             <h1 className="text-3xl md:text-4xl font-semibold text-black mb-2">
                                 Exterior Cleaning
                             </h1>
@@ -45,11 +45,11 @@ function Interduce() {
 
                         {/* Concrete Sealing */}
                         <section className="text-center">
-                            <img
+                            {/* <img
                                 src={ConcreteSealingPhoto}
                                 alt="Concrete Sealing"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            />
+                            /> */}
                             <h1 className="text-3xl md:text-4xl font-semibold text-black mb-2">
                                 Concrete Sealing
                             </h1>
@@ -63,11 +63,11 @@ function Interduce() {
 
                         {/* Window Cleaning */}
                         <section className="text-center">
-                            <img
+                            {/* <img
                                 src={WindowCleaningPhoto}
                                 alt="Window Cleaning"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            />
+                            /> */}
                             <h1 className="text-3xl md:text-4xl font-semibold text-black mb-2">
                                 Window Cleaning
                             </h1>
@@ -81,11 +81,11 @@ function Interduce() {
 
                         {/* Roof Cleaning */}
                         <section className="text-center">
-                            <img
+                            {/* <img
                                 src={RoofCleaningPhoto1} // You can change this to RoofCleaningPhoto2 or RoofCleaningPhoto3 as needed
                                 alt="Roof Cleaning"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            />
+                            /> */}
                             <h1 className="text-3xl md:text-4xl font-semibold text-black mb-2">
                                 Roof Cleaning
                             </h1>
@@ -99,11 +99,11 @@ function Interduce() {
 
                         {/* Surface Cleaning */}
                         <section className="text-center">
-                            <img
+                            {/* <img
                                 src={SurfaceCleaningPhoto}
                                 alt="Surface Cleaning"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            />
+                            /> */}
                             <h1 className="text-3xl md:text-4xl font-semibold text-black mb-2">
                                 Surface Cleaning
                             </h1>

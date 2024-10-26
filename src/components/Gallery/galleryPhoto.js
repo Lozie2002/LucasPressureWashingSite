@@ -1,31 +1,32 @@
 import React from "react";
 
-import SolarPhoto from "../../Photos/solarPanel.jpg";
-import PressureWashingPhoto from "../../Photos/ExteriorCleaning.jpg";
-import ConcreteSealingPhoto from "../../Photos/SideWalkCleaning2After.jpg";
-import WindowCleaningPhoto from "../../Photos/WindowCleaning.jpg";
-import RoofCleaningPhoto1 from "../../Photos/RoofCleaning1.jpg";
-import RoofCleaningPhoto2 from "../../Photos/RoofCleaning2.jpg";
-import RoofCleaningPhoto3 from "../../Photos/RoofCleaning3.jpg";
-import SurfaceCleaningPhoto from "../../Photos/SurfaceCleaning.jpg";
-import DrivewayCleaningPhotoBefore from "../../Photos/DrivewayBefore.jpg";
-import DrivewayCleaningPhotoAfter from "../../Photos/DrivewayAfter.jpg";
-import RoofCleaningNew1 from "../../Photos/RoofCleaningNew1.jpg";
-import RoofCleaningNew2 from "../../Photos/RoofCleaningNew2.jpg";
+// Commenting out all image imports
+// import SolarPhoto from "../../Photos/solarPanel.jpg";
+// import PressureWashingPhoto from "../../Photos/ExteriorCleaning.jpg";
+// import ConcreteSealingPhoto from "../../Photos/SideWalkCleaning2After.jpg";
+// import WindowCleaningPhoto from "../../Photos/WindowCleaning.jpg";
+// import RoofCleaningPhoto1 from "../../Photos/RoofCleaning1.jpg";
+// import RoofCleaningPhoto2 from "../../Photos/RoofCleaning2.jpg";
+// import RoofCleaningPhoto3 from "../../Photos/RoofCleaning3.jpg";
+// import SurfaceCleaningPhoto from "../../Photos/SurfaceCleaning.jpg";
+// import DrivewayCleaningPhotoBefore from "../../Photos/DrivewayBefore.jpg";
+// import DrivewayCleaningPhotoAfter from "../../Photos/DrivewayAfter.jpg";
+// import RoofCleaningNew1 from "../../Photos/RoofCleaningNew1.jpg";
+// import RoofCleaningNew2 from "../../Photos/RoofCleaningNew2.jpg";
 
 const galleryImages = [
-  { src: SolarPhoto, alt: "Solar Panel Cleaning" },
-  { src: PressureWashingPhoto, alt: "Pressure Washing" },
-  { src: ConcreteSealingPhoto, alt: "Concrete Sealing" },
-  { src: WindowCleaningPhoto, alt: "Window Cleaning" },
-  { src: RoofCleaningPhoto1, alt: "Roof Cleaning 1" },
-  { src: RoofCleaningPhoto2, alt: "Roof Cleaning 2" },
-  { src: RoofCleaningPhoto3, alt: "Roof Cleaning 3" },
-  { src: SurfaceCleaningPhoto, alt: "Surface Cleaning" },
-  { src: DrivewayCleaningPhotoBefore, alt: "Driveway Cleaning Before" },
-  { src: DrivewayCleaningPhotoAfter, alt: "Driveway Cleaning After" },
-  { src: RoofCleaningNew1, alt: "Roof Cleaning New 1" },
-  { src: RoofCleaningNew2, alt: "Roof Cleaning New 2" },
+  // { src: SolarPhoto, alt: "Solar Panel Cleaning" },
+  // { src: PressureWashingPhoto, alt: "Pressure Washing" },
+  // { src: ConcreteSealingPhoto, alt: "Concrete Sealing" },
+  // { src: WindowCleaningPhoto, alt: "Window Cleaning" },
+  // { src: RoofCleaningPhoto1, alt: "Roof Cleaning 1" },
+  // { src: RoofCleaningPhoto2, alt: "Roof Cleaning 2" },
+  // { src: RoofCleaningPhoto3, alt: "Roof Cleaning 3" },
+  // { src: SurfaceCleaningPhoto, alt: "Surface Cleaning" },
+  // { src: DrivewayCleaningPhotoBefore, alt: "Driveway Cleaning Before" },
+  // { src: DrivewayCleaningPhotoAfter, alt: "Driveway Cleaning After" },
+  // { src: RoofCleaningNew1, alt: "Roof Cleaning New 1" },
+  // { src: RoofCleaningNew2, alt: "Roof Cleaning New 2" },
 ];
 
 // Function to shuffle the array
