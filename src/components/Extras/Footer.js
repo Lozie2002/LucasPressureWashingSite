@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-import logo1 from "../../Photos/LushCleaningLogo.png"; // Default import for logo
+import logo from "../../Photos/LushCleaningLogo.png"; // Importing the logo image
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
       <div className="flex w-full justify-between items-center mb-2">
         {/* Left section for logo and company name */}
         <div className="flex items-center">
-          <img src={logo1} alt="Logo" className="h-12 w-auto mr-2" />
+          <img src={logo} alt="Logo" className="h-12 w-auto mr-2" />
           <h1 className="text-2xl font-semibold">Lush Cleaning</h1>
         </div>
 
