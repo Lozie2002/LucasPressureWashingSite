@@ -6,7 +6,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { MdClose, MdOutlineCleaningServices, MdOutlineContactMail } from "react-icons/md";
 import { BsImages } from "react-icons/bs";
 import MobileNav from "./MobileNav";
-import logo from "../../photos/LushCleaningLogo.png"; // Importing the logo image
+import logo from "../../Photos/LushCleaningLogo.png"; // Importing the logo image
 
 function Header() {
   const navigate = useNavigate();

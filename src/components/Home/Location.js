@@ -1,5 +1,5 @@
 import React from "react";
-import MapImage from "../../photos/Map.png";
+import MapImage from "../../Photos/Map.png";
 
 function Interduce() {
     return (

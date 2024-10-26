@@ -1,63 +1,67 @@
 import React from "react";
-import SolarPhoto from "../../FPhotos/solarPanel.jpg";
-import PressureWashingPhoto from "../../FPhotos/ExteriorCleaning.jpg";
-import ConcreteSealingPhoto from "../../FPhotos/SideWalkCleaning2After.jpg";
-import WindowCleaningPhoto from "../../FPhotos/WindowCleaning.jpg";
-import RoofCleaningPhoto1 from "../../FPhotos/RoofCleaning1.jpg";
-import RoofCleaningPhoto2 from "../../FPhotos/RoofCleaning2.jpg";
-import RoofCleaningPhoto3 from "../../FPhotos/RoofCleaning3.jpg";
-import SurfaceCleaningPhoto from "../../FPhotos/SurfaceCleaning.jpg";
+import SolarPhoto from "../../Photos/solarPanel.jpg";
+import PressureWashingPhoto from "../../Photos/ExteriorCleaning.jpg";
+import ConcreteSealingPhoto from "../../Photos/SideWalkCleaning2After.jpg";
+import WindowCleaningPhoto from "../../Photos/WindowCleaning.jpg";
+import RoofCleaningPhoto1 from "../../Photos/RoofCleaning1.jpg";
+import RoofCleaningPhoto2 from "../../Photos/RoofCleaning2.jpg";
+import RoofCleaningPhoto3 from "../../Photos/RoofCleaning3.jpg";
+import SurfaceCleaningPhoto from "../../Photos/SurfaceCleaning.jpg";
+import DrivewayCleaningPhotoBefore from "../../Photos/DrivewayBefore.jpg";
+import DrivewayCleaningPhotoAfter from "../../Photos/DrivewayAfter.jpg";
+import RoofCleaningNew1 from "../../Photos/RoofCleaningNew1.jpg";
+import RoofCleaningNew2 from "../../Photos/RoofCleaningNew2.jpg";
+
+const galleryImages = [
+  { src: SolarPhoto, alt: "Solar Panel Cleaning" },
+  { src: PressureWashingPhoto, alt: "Pressure Washing" },
+  { src: ConcreteSealingPhoto, alt: "Concrete Sealing" },
+  { src: WindowCleaningPhoto, alt: "Window Cleaning" },
+  { src: RoofCleaningPhoto1, alt: "Roof Cleaning 1" },
+  { src: RoofCleaningPhoto2, alt: "Roof Cleaning 2" },
+  { src: RoofCleaningPhoto3, alt: "Roof Cleaning 3" },
+  { src: SurfaceCleaningPhoto, alt: "Surface Cleaning" },
+  { src: DrivewayCleaningPhotoBefore, alt: "Driveway Cleaning Before" },
+  { src: DrivewayCleaningPhotoAfter, alt: "Driveway Cleaning After" },
+  { src: RoofCleaningNew1, alt: "Roof Cleaning New 1" },
+  { src: RoofCleaningNew2, alt: "Roof Cleaning New 2" },
+];
+
+// Function to shuffle the array
+const shuffleArray = (array) => {
+  return array.sort(() => Math.random() - 0.5);
+};
 
 function GallerySection() {
-    return (
-        <div
-            className="flex items-center justify-center w-full"
-            style={{
-                backgroundColor: "white", // Set background color
-                minHeight: "80vh", // Increase height for the gallery
-                paddingBottom: "2rem", // Adjust bottom padding
-                paddingTop: "2rem", // Add top padding for better spacing
-            }}
-        >
-            <div className="flex flex-col items-center justify-center w-full max-w-screen-lg px-5">
-                {/* Section Heading */}
-                <h2 className="pb-4 text-5xl font-light tracking-wide text-black text-center">
-                    Our Gallery
-                </h2>
+  // Shuffle images for random layout
+  const shuffledImages = shuffleArray([...galleryImages]);
 
-                {/* Image Gallery */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full mt-6">
-                    {/* Gallery Images */}
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={SolarPhoto} alt="Gallery 1" className="object-cover w-full h-full" />
-                    </div>
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={PressureWashingPhoto} alt="Gallery 2" className="object-cover w-full h-full" />
-                    </div>
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={ConcreteSealingPhoto} alt="Gallery 3" className="object-cover w-full h-full" />
-                    </div>
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={WindowCleaningPhoto} alt="Gallery 4" className="object-cover w-full h-full" />
-                    </div>
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={RoofCleaningPhoto1} alt="Gallery 5" className="object-cover w-full h-full" />
-                    </div>
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={RoofCleaningPhoto2} alt="Gallery 6" className="object-cover w-full h-full" />
-                    </div>
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={RoofCleaningPhoto3} alt="Gallery 7" className="object-cover w-full h-full" />
-                    </div>
-                    <div className="w-full h-80 bg-gray-200"> {/* Increased height */}
-                        <img src={SurfaceCleaningPhoto} alt="Gallery 8" className="object-cover w-full h-full" />
-                    </div>
-                </div>
+  return (
+    <div className="flex items-center justify-center w-full bg-white py-0 min-h-screen">
+      <div className="flex flex-col items-center justify-center w-full h-full max-w-screen-lg px-0">
+        {/* Section Heading */}
+        <h2 className="pb-4 text-5xl font-bold tracking-wide text-black text-center drop-shadow-md">
+          Photos From our Recent Jobs
+        </h2>
 
-                {/* Optionally, add more images as needed */}
+        {/* Image Gallery */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 w-full h-full mt-4">
+          {shuffledImages.map((image, index) => (
+            <div
+              key={index}
+              className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="object-cover w-full h-full"
+              />
             </div>
+          ))}
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default GallerySection;

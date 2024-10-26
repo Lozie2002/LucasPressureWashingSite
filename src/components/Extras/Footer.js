@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-import logo1 from "../../photos/LushCleaningLogo.png"; // Default import for logo
+import logo1 from "../../Photos/LushCleaningLogo.png"; // Default import for logo
 
 function Footer() {
   return (
