@@ -1,11 +1,9 @@
 import React from "react";
+import logo from "../../Images/LushCleaningLogo.png"; // Importing the logo image
 
 function Hero() {
   return (
-    <div
-      className="bg-cover bg-center h-[80vh] flex flex-col items-center justify-center lg:flex-row"
-    
-    >
+    <div className="bg-cover bg-center h-[80vh] flex flex-col items-center justify-center lg:flex-row">
       {/* Left side: Text */}
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center flex-col mt-6 lg:mt-10 px-4">
         <div className="flex flex-col items-center lg:items-start gap-2">
@@ -26,14 +24,11 @@ function Hero() {
 
       {/* Right side: Image */}
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center mt-6 lg:mt-10">
-        {/* 
         <img
           src={logo}
           alt="Lush Cleaning Logo"
           className="w-1/2 lg:w-1/3 h-auto rounded-full shadow-2xl border-4 border-white"
-         
         />
-         */}
       </div>
     </div>
   );
