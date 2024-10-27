@@ -1,6 +1,5 @@
 import React from "react";
-// import MapImage from "../../Photos/Map.png";
-
+import MapImage from "../../Images/Map.png";
 function Interduce() {
     return (
         <section
@@ -23,11 +22,11 @@ function Interduce() {
                     </p>
                 </div>
                 {/* Commenting out the Map image */}
-                {/* <img
+                 <img
                     src={MapImage}
                     alt="Map"
                     className="w-full h-auto object-cover rounded-lg mt-6"
-                /> */}
+                /> 
             </div>
         </section>
     );
