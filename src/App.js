@@ -11,7 +11,10 @@ import Footer from "./components/Extras/Footer";
 import ScrollToTop from "./components/Extras/ScrollToTop";
 function App() {
   return (
-    <div className="bg-white">
+    <div className=""  
+    style={{
+      backgroundColor: "#B6EDF8"
+    }}>
       <Header />
       <ScrollToTop />
       <Routes>

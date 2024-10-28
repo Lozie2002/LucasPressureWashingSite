@@ -14,13 +14,13 @@ function Hero() {
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center flex-col mt-6 lg:mt-10 px-4 bg-opacity-80">
         <div className="flex flex-col items-center lg:items-start gap-2">
           <h3
-            className="text-white text-2xl lg:text-4xl font-semibold drop-shadow-lg"
+            className="text-white text-3xl lg:text-5xl font-semibold drop-shadow-lg"
             style={{ fontFamily: "'Poppins', sans-serif" }}
           >
             Welcome to
           </h3>
           <p
-            className="text-white text-3xl lg:text-5xl font-bold drop-shadow-2xl"
+            className="text-blue-300 text-4xl lg:text-6xl font-bold drop-shadow-2xl"
             style={{ fontFamily: "'Poppins', sans-serif" }}
           >
             LUSH CLEANING

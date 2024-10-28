@@ -13,13 +13,17 @@ function ContactForm() {
   };
 
   return (
-    <div className="bg-white h-[70vh] flex flex-col items-center justify-center relative">
+    <div className="h-[70vh] flex flex-col items-center justify-center relative"
+    style={{
+      backgroundColor: "#B6EDF8"
+    }}
+    >
       {/* Contact Form Section */}
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center flex-col my-6 lg:my-10 px-4 lg:px-10 z-20">
         <div className="flex flex-col items-center justify-center w-full lg:w-4/5 text-center">
           {/* Heading */}
           <h1 className="text-black text-2xl lg:text-4xl font-bold">
-            Contact <span className="text-[#ad50eb]">Lush Exterior Cleaning</span>
+            Contact <span className="text-blue-500">Lush Exterior Cleaning</span>
           </h1>
 
           {/* Form */}
@@ -84,7 +88,7 @@ function ContactForm() {
 
             <button
               type="submit"
-              className="bg-purple-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-purple-600 transition duration-300"
+              className="bg-blue-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-purple-600 transition duration-300"
             >
               Submit
             </button>

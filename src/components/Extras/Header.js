@@ -27,12 +27,14 @@ function Header() {
       className={`flex items-center justify-between px-4 z-50 ${
         scroll ? 'bg-black bg-opacity-80 backdrop-blur-lg rounded drop-shadow-lg shadow-lg lg:sticky top-0' : 'bg-black'
       } transition-all duration-300`}
+      style={{ height: '68px' }} // Set fixed height for header
     >
       {/* Logo Section */}
       <span className="md:w-1/3 lg:w-1/2 flex items-center justify-center py-5 px-2 relative">
         <Link to="/">
-          <img src={Logo} alt="Lush Cleaning Logo" className="h-12" /> {/* Adjust height as needed */}
+          <img src={Logo} alt="Lush Cleaning Logo" className="h-12" />
         </Link>
+        <h1 className="text-white text-xl font-semibold ml-3">Lush Cleaning</h1> {/* Add heading here */}
       </span>
 
       {/* Desktop Navigation Links */}
@@ -79,9 +81,9 @@ function Header() {
           ) : (
             <RiMenu3Fill fontSize={25} className="text-white" onClick={() => setShowNav(!showNav)} />
           )}
-          <MobileNav showNav={showNav} setShowNav={setShowNav} />
         </div>
       </span>
+      <MobileNav showNav={showNav} setShowNav={setShowNav} />
     </div>
   );
 }

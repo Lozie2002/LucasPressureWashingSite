@@ -38,7 +38,11 @@ function GallerySection() {
   const shuffledImages = shuffleArray([...galleryImages]);
 
   return (
-    <div className="flex items-center justify-center w-full bg-white py-0 min-h-screen">
+    <div className="flex items-center justify-center w-full py-0 min-h-screen"
+    style={{
+      backgroundColor: "#B6EDF8"
+    }}
+    >
       <div className="flex flex-col items-center justify-center w-full h-full max-w-screen-lg px-0">
         {/* Section Heading */}
         <h2 className="pb-4 text-5xl font-bold tracking-wide text-black text-center drop-shadow-md">
