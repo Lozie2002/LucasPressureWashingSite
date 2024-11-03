@@ -8,12 +8,14 @@ import RoofCleaningPhoto1 from "../../Images/RoofCleaning1.jpg";
 import SurfaceCleaningPhoto from "../../Images/SurfaceCleaning.jpg";
 import GutterCleaningPhotoNew1 from "../../Images/RoofCleaningNew1.jpg";
 import GutterCleaningPhotoNew2 from "../../Images/RoofCleaningNew2.jpg";
+import SolarPanelCleaningPhoto from "../../Images/solarPanel.jpg"; // Add your solar panel cleaning image
 
 function Services() {
   return (
-    <div className="flex flex-col items-start justify-start relative overflow-hidden w-full"
+    <div
+      className="flex flex-col items-start justify-start relative overflow-hidden w-full"
       style={{
-        backgroundColor: "#B6EDF8"
+        backgroundColor: "#B6EDF8",
       }}
     >
       <h1 className="text-gray-900 font-bold text-5xl my-8 text-center w-full">
@@ -40,45 +42,73 @@ function Services() {
 const serviceData = [
   {
     title: "Pressure Washing",
-    description: "Pressure washing is an effective method to remove stubborn stains, grime, mould, and algae that can create slip hazards. This service is ideal for enhancing the curb appeal of your property.",
-    benefits: "Improved safety, enhanced appearance, increased property value, and prevention of surface deterioration.",
-    process: "We utilize high-pressure water jets to effectively clean a variety of surfaces including driveways, decks, and siding. Our skilled team ensures that every corner is thoroughly cleaned.",
+    description:
+      "Pressure washing is an effective method to remove stubborn stains, grime, mould, and algae that can create slip hazards. This service is ideal for enhancing the curb appeal of your property.",
+    benefits:
+      "Improved safety, enhanced appearance, increased property value, and prevention of surface deterioration.",
+    process:
+      "We utilize high-pressure water jets to effectively clean a variety of surfaces including driveways, decks, and siding. Our skilled team ensures that every corner is thoroughly cleaned.",
     image: SurfaceCleaningPhoto,
   },
   {
     title: "Concrete Sealing",
-    description: "Sealing your concrete surfaces protects against water infiltration, moisture damage, and stains from pollutants such as oil and grease, ultimately preserving their integrity.",
-    benefits: "Prolongs the lifespan of your concrete surfaces, enhances their color, prevents staining, and reduces maintenance costs over time.",
-    process: "Our process includes cleaning the surface thoroughly, applying a high-quality sealant designed for durability, and ensuring proper curing for optimal results.",
+    description:
+      "Sealing your concrete surfaces protects against water infiltration, moisture damage, and stains from pollutants such as oil and grease, ultimately preserving their integrity.",
+    benefits:
+      "Prolongs the lifespan of your concrete surfaces, enhances their color, prevents staining, and reduces maintenance costs over time.",
+    process:
+      "Our process includes cleaning the surface thoroughly, applying a high-quality sealant designed for durability, and ensuring proper curing for optimal results.",
     image: ConcreteSealingPhoto,
   },
   {
     title: "Window Cleaning",
-    description: "Regular window cleaning not only enhances the natural light in your home but also prevents the buildup of grime and dirt that can degrade your windows over time.",
-    benefits: "Enhanced natural light, improved aesthetics, extended lifespan of windows, and increased energy efficiency.",
-    process: "We use a combination of traditional methods, such as squeegeeing, along with modern equipment for streak-free results that leave your windows crystal clear.",
+    description:
+      "Regular window cleaning not only enhances the natural light in your home but also prevents the buildup of grime and dirt that can degrade your windows over time.",
+    benefits:
+      "Enhanced natural light, improved aesthetics, extended lifespan of windows, and increased energy efficiency.",
+    process:
+      "We use a combination of traditional methods, such as squeegeeing, along with modern equipment for streak-free results that leave your windows crystal clear.",
     image: WindowCleaningPhoto,
   },
   {
     title: "Gutter Cleaning",
-    description: "Clogged gutters can lead to serious water damage, which is why regular gutter cleaning is essential. It ensures that rainwater flows freely, protecting your home from potential damage.",
-    benefits: "Prevents water damage, pest infestations, reduces the risk of mould growth, and saves you from costly repairs in the long run.",
-    process: "Our team carefully removes debris from gutters and downspouts, ensuring proper flow and functionality. We also inspect for damages or areas that may need repairs.",
+    description:
+      "Clogged gutters can lead to serious water damage, which is why regular gutter cleaning is essential. It ensures that rainwater flows freely, protecting your home from potential damage.",
+    benefits:
+      "Prevents water damage, pest infestations, reduces the risk of mould growth, and saves you from costly repairs in the long run.",
+    process:
+      "Our team carefully removes debris from gutters and downspouts, ensuring proper flow and functionality. We also inspect for damages or areas that may need repairs.",
     images: [GutterCleaningPhotoNew1, GutterCleaningPhotoNew2],
   },
   {
     title: "House Washing",
-    description: "Soft washing is a gentle yet effective method to clean your house’s exterior, removing contaminants such as mildew and stains while being safe for delicate surfaces.",
-    benefits: "Safe for delicate surfaces, prolongs the lifespan of your paint and siding, and significantly enhances curb appeal.",
-    process: "We utilize low-pressure water combined with specialized detergents to safely and effectively clean surfaces without damaging them.",
+    description:
+      "Soft washing is a gentle yet effective method to clean your house’s exterior, removing contaminants such as mildew and stains while being safe for delicate surfaces.",
+    benefits:
+      "Safe for delicate surfaces, prolongs the lifespan of your paint and siding, and significantly enhances curb appeal.",
+    process:
+      "We utilize low-pressure water combined with specialized detergents to safely and effectively clean surfaces without damaging them.",
     image: PressureWashingPhoto,
   },
   {
     title: "Roof Washing",
-    description: "Our roof washing service is designed to remove harmful mould and mildew, helping to preserve the structural integrity of your roof while enhancing its appearance.",
-    benefits: "Extends the lifespan of your roof, improves energy efficiency by reflecting sunlight, and significantly boosts your home's aesthetic appeal.",
-    process: "We use soft washing techniques along with eco-friendly products to safely clean roofs without causing any damage.",
+    description:
+      "Our roof washing service is designed to remove harmful mould and mildew, helping to preserve the structural integrity of your roof while enhancing its appearance.",
+    benefits:
+      "Extends the lifespan of your roof, improves energy efficiency by reflecting sunlight, and significantly boosts your home's aesthetic appeal.",
+    process:
+      "We use soft washing techniques along with eco-friendly products to safely clean roofs without causing any damage.",
     image: RoofCleaningPhoto1,
+  },
+  {
+    title: "Solar Panel Cleaning",
+    description:
+      "Regular cleaning of solar panels enhances their efficiency by removing dust, dirt, and debris that can block sunlight, ultimately optimizing energy production.",
+    benefits:
+      "Increased energy efficiency, extended lifespan of solar panels, and reduced maintenance costs.",
+    process:
+      "We use specialized equipment and eco-friendly cleaning solutions to safely and effectively clean your solar panels without damaging them.",
+    image: SolarPanelCleaningPhoto,
   },
 ];
 

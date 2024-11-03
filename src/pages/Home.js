@@ -6,6 +6,7 @@ import Introduction from "../components/Home/Introduction";
 import Location from "../components/Home/Location";
 import Services from "../components/Home/servicesBasic";
 import Reviews from "../components/Home/reviews";
+//import Instagram from "../components/Home/Instagram";
 
 function Home() {
   // Animation variants
@@ -84,6 +85,18 @@ function Home() {
       >
         <Reviews />
       </motion.div>
+
+      {/* 
+      <motion.div
+        ref={reviewsRef}
+        initial="initial"
+        animate={isReviewsInView ? "animate" : "initial"}
+        variants={fadeIn}
+        transition={{ duration: 0.8, delay: 0.4 }} // Reduced delay for staggered effect
+      >
+        <Instagram />
+      </motion.div>
+      */}
     </div>
   );
 }

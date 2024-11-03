@@ -5,6 +5,7 @@ import ConcreteSealingPhoto from "../../Images/SideWalkCleaning2After.jpg";
 import WindowCleaningPhoto from "../../Images/WindowCleaning.jpg";
 import RoofCleaningPhoto1 from "../../Images/RoofCleaning1.jpg";
 import SurfaceCleaningPhoto from "../../Images/SurfaceCleaning.jpg";
+import SolarPanelCleaningPhoto from "../../Images/solarPanel.jpg"; // Import your Solar Panel Cleaning image
 
 function Interduce() {
     return (
@@ -18,9 +19,9 @@ function Interduce() {
         >
             <div className="flex flex-col items-start justify-start text-left w-full max-w-screen-lg px-5 pt-10">
                 <div className="flex w-full flex-col md:w-[100%]">
-                <h2 style={{ color: "#003049" }} className="pb-4 text-5xl md:text-7xl font-light tracking-wide">
-                    Our Services
-                </h2>
+                    <h2 style={{ color: "#003049" }} className="pb-4 text-5xl md:text-7xl font-light tracking-wide">
+                        Our Services
+                    </h2>
                     {/* 2x3 Grid for Images and Services */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
@@ -30,7 +31,7 @@ function Interduce() {
                                 src={PressureWashingPhoto}
                                 alt="Pressure Washing"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            /> 
+                            />
                             <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
                                 Exterior Cleaning
                             </h1>
@@ -48,7 +49,7 @@ function Interduce() {
                                 src={ConcreteSealingPhoto}
                                 alt="Concrete Sealing"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            /> 
+                            />
                             <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
                                 Concrete Sealing
                             </h1>
@@ -66,7 +67,7 @@ function Interduce() {
                                 src={WindowCleaningPhoto}
                                 alt="Window Cleaning"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            /> 
+                            />
                             <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
                                 Window Cleaning
                             </h1>
@@ -81,7 +82,7 @@ function Interduce() {
                         {/* Roof Cleaning */}
                         <section className="text-center">
                             <img
-                                src={RoofCleaningPhoto1} // You can change this to RoofCleaningPhoto2 or RoofCleaningPhoto3 as needed
+                                src={RoofCleaningPhoto1}
                                 alt="Roof Cleaning"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
                             />
@@ -102,7 +103,7 @@ function Interduce() {
                                 src={SurfaceCleaningPhoto}
                                 alt="Surface Cleaning"
                                 className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
-                            /> 
+                            />
                             <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
                                 Surface Cleaning
                             </h1>
@@ -111,6 +112,24 @@ function Interduce() {
                             </p>
                             <p className="font-light text-lg md:text-xl text-black mt-2">
                                 <strong>Starting Price for Surface Cleaning: $180</strong>
+                            </p>
+                        </section>
+
+                        {/* Solar Panel Cleaning */}
+                        <section className="text-center">
+                            <img
+                                src={SolarPanelCleaningPhoto}
+                                alt="Solar Panel Cleaning"
+                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
+                            />
+                            <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
+                                Solar Panel Cleaning
+                            </h1>
+                            <p className="font-light text-lg md:text-xl text-black">
+                                Regular cleaning of solar panels ensures maximum efficiency by removing dirt and debris that can obstruct sunlight.
+                            </p>
+                            <p className="font-light text-lg md:text-xl text-black mt-2">
+                                <strong>Starting Price for Solar Panel Cleaning: $120</strong>
                             </p>
                         </section>
 
