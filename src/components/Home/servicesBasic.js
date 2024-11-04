@@ -10,9 +10,9 @@ import SolarPanelCleaningPhoto from "../../Images/solarPanel.jpg"; // Import you
 function Interduce() {
     return (
         <div
-            className="flex items-center justify-center w-full"
+            className="flex items-center justify-center w-full bg-gradient-to-r from-customColor to-blue-200"
             style={{
-                backgroundColor: "#B6EDF8",
+             
                 minHeight: "30vh",
                 paddingBottom: "2rem",
             }}

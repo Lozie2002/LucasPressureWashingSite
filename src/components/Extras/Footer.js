@@ -22,7 +22,7 @@ function Footer() {
 
       {/* Slogan under logo and company name */}
       <p className="text-sm text-gray-400 mb-2 text-left w-full">
-        Your trusted cleaning service
+        We See Clearly so You Can Too
       </p>
 
       {/* Divider line */}

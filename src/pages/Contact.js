@@ -25,10 +25,8 @@ function ContactForm() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen p-4"
-    style={{
-      backgroundColor: "#B6EDF8"
-    }}
+    <div className="flex items-center justify-center min-h-screen p-4 bg-gradient-to-r from-customColor to-blue-200"
+   
     >
       <div className="w-full max-w-lg md:max-w-xl lg:max-w-2xl bg-white p-6 md:p-10 rounded-lg shadow-lg">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Contact Us</h2>

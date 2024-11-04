@@ -3,9 +3,9 @@ import React from "react";
 function Interduce() {
     return (
         <div
-            className="flex items-center justify-center w-full"
+            className="flex items-center justify-center w-full bg-white"
             style={{
-                backgroundColor: "#B6EDF8", // Set background color
+                 // Set background color
                 minHeight: "30vh", // Set a smaller minimum height
                 paddingBottom: "2rem", // Adjust bottom padding to prevent overflow
                 paddingTop: "2rem", // Add top padding for better spacing

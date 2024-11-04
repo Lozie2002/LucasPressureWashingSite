@@ -13,7 +13,7 @@ function App() {
   return (
     <div className=""  
     style={{
-      backgroundColor: "#B6EDF8"
+    
     }}>
       <Header />
       <ScrollToTop />

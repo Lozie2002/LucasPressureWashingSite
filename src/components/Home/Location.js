@@ -4,10 +4,8 @@ import MapImage from "../../Images/Map.png";
 function Interduce() {
     return (
         <section
-            className="flex items-center justify-center w-full min-h-[30vh] pb-8"
-            style={{
-                backgroundColor: "#B6EDF8",
-            }}
+            className="flex items-center justify-center w-full min-h-[30vh] pb-8 bg-white"
+           
         >
             <div className="flex flex-col items-start justify-start text-left w-full max-w-screen-lg px-5 pt-10">
                 <div className="flex flex-col w-full">

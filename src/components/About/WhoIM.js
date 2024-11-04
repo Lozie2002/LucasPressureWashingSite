@@ -3,9 +3,9 @@ import ExteriorCleaning from '../../Images/ExteriorCleaning.jpg';
 
 function WhoIM() {
   return (
-    <div className="h-auto flex flex-col lg:flex-row items-center justify-center py-10 lg:py-16 px-4 lg:px-12 relative"
+    <div className="h-auto flex flex-col lg:flex-row items-center justify-center py-10 lg:py-16 px-4 lg:px-12 relative bg-gradient-to-r from-customColor to-blue-200"
     style={{
-      backgroundColor: "#B6EDF8"
+     
     }}
     >
       {/* Left Side: Text Section */}

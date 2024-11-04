@@ -13,10 +13,8 @@ import SolarPanelCleaningPhoto from "../../Images/solarPanel.jpg"; // Add your s
 function Services() {
   return (
     <div
-      className="flex flex-col items-start justify-start relative overflow-hidden w-full"
-      style={{
-        backgroundColor: "#B6EDF8",
-      }}
+      className="flex flex-col items-start justify-start relative overflow-hidden w-full bg-gradient-to-r from-customColor to-blue-200"
+
     >
       <h1 className="text-gray-900 font-bold text-5xl my-8 text-center w-full">
         Our Services

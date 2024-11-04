@@ -15,7 +15,7 @@ function About() {
   const isWhoIMInView = useInView(whoIMRef, { margin: "0px", once: false });
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-gradient-to-r from-customColor to-blue-200 min-h-screen">
       {/* WhoIM Section with Animation */}
       <motion.div
         ref={whoIMRef} // Attach the ref to the motion.div

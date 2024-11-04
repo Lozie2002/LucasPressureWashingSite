@@ -19,11 +19,11 @@ function StarRating({ rating }) {
 function Interduce() {
     return (
         <div
-            className="flex items-center justify-center w-full"
+            className="flex items-center justify-center w-full bg-gradient-to-r from-customColor to-blue-200"
             style={{
                 minHeight: "50vh", // Increased minimum height for better layout
                 paddingBottom: "2rem", // Adjust bottom padding to prevent overflow
-                backgroundColor: "#B6EDF8", // Background color
+               
             }}
         >
             <div className="flex flex-col items-start justify-start text-left w-full max-w-screen-lg px-5 pt-10">
