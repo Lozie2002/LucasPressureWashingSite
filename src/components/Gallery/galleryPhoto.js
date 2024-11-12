@@ -38,7 +38,7 @@ function GallerySection() {
   const shuffledImages = shuffleArray([...galleryImages]);
 
   return (
-    <div className="flex items-center justify-center w-full py-0 min-h-screen bg-gradient-to-r from-customColor to-blue-200"
+    <div className="flex items-center justify-center w-full py-0 min-h-screen bg-gradient-to-r from-customColor to-blue-200 py-10"
  
     >
       <div className="flex flex-col items-center justify-center w-full h-full max-w-screen-lg px-0">
