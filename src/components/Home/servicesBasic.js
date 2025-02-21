@@ -10,129 +10,130 @@ import SolarPanelCleaningPhoto from "../../Images/solarPanel.jpg"; // Import you
 function Interduce() {
     return (
         <div
-            className="flex items-center justify-center w-full bg-gradient-to-r from-customColor to-blue-200"
+            className="flex items-center justify-center w-full"
             style={{
-             
                 minHeight: "30vh",
                 paddingBottom: "2rem",
             }}
         >
             <div className="flex flex-col items-start justify-start text-left w-full max-w-screen-lg px-5 pt-10">
-                <div className="flex w-full flex-col md:w-[100%]">
-                    <h2 style={{ color: "#003049" }} className="pb-4 text-5xl md:text-7xl font-light tracking-wide">
+            <div className="w-full text-left md:text-center lg:text-center xl:text-left">
+            <h2
+                        style={{ color: "#003049", fontFamily: "'Poppins', sans-serif" }}
+                        className="pb-4 text-5xl md:text-6xl font-light tracking-wide"
+                    >
                         Our Services
                     </h2>
-                    {/* 2x3 Grid for Images and Services */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
+                    {/* 2x3 Grid for Images and Services */}
+                    <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
                         {/* Pressure Washing */}
-                        <section className="text-center">
+                        <Link to="/services" className="text-center p-4 rounded-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
                             <img
                                 src={PressureWashingPhoto}
                                 alt="Pressure Washing"
-                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
+                                className="w-full h-[450px] object-cover mx-auto mb-4 rounded-lg"
                             />
-                            <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
-                                Exterior Cleaning
-                            </h1>
-                            <p className="font-light text-lg md:text-xl text-black">
-                                Pressure washing removes stubborn stains, grime, mould, and algae, all possible slip hazards for your family.
-                            </p>
-                            <p className="font-light text-lg md:text-xl text-black mt-2">
-                                <strong>Starting Price for Pressure Washing: $150</strong>
-                            </p>
-                        </section>
+                            <div className="bg-blue-200 text-black p-4 rounded-lg">
+                                <h1
+                                    style={{ fontFamily: "'Poppins', sans-serif" }}
+                                    className="text-3xl md:text-3xl font-semibold mb-2"
+                                >
+                                    Exterior Cleaning
+                                </h1>
+                                <p className="text-lg md:text-xl">High-pressure washing to restore your exterior surfaces to their original beauty.</p>
+                            </div>
+                        </Link>
 
                         {/* Concrete Sealing */}
-                        <section className="text-center">
+                        <Link to="/services" className="text-center p-4 rounded-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
                             <img
                                 src={ConcreteSealingPhoto}
                                 alt="Concrete Sealing"
-                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
+                                className="w-full h-[450px] object-cover mx-auto mb-4 rounded-lg"
                             />
-                            <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
-                                Concrete Sealing
-                            </h1>
-                            <p className="font-light text-lg md:text-xl text-black">
-                                Sealing your concrete creates a barrier against water infiltration, moisture damage, and pollutants like oil and grease.
-                            </p>
-                            <p className="font-light text-lg md:text-xl text-black mt-2">
-                                <strong>Starting Price for Concrete Sealing: $200</strong>
-                            </p>
-                        </section>
+                            <div className="bg-blue-200 text-black p-4 rounded-lg">
+                                <h1
+                                    style={{ fontFamily: "'Poppins', sans-serif" }}
+                                    className="text-3xl md:text-3xl font-semibold mb-2"
+                                >
+                                    Concrete Sealing
+                                </h1>
+                                <p className="text-lg md:text-xl">Protect and preserve your concrete surfaces with professional sealing services.</p>
+                            </div>
+                        </Link>
 
                         {/* Window Cleaning */}
-                        <section className="text-center">
+                        <Link to="/services" className="text-center p-4 rounded-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
                             <img
                                 src={WindowCleaningPhoto}
                                 alt="Window Cleaning"
-                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
+                                className="w-full h-[450px] object-cover mx-auto mb-4 rounded-lg"
                             />
-                            <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
-                                Window Cleaning
-                            </h1>
-                            <p className="font-light text-lg md:text-xl text-black">
-                                Clean windows allow more sunlight into your home, making it brighter and more inviting.
-                            </p>
-                            <p className="font-light text-lg md:text-xl text-black mt-2">
-                                <strong>Starting Price for Window Cleaning: $100</strong>
-                            </p>
-                        </section>
+                            <div className="bg-blue-200 text-black p-4 rounded-lg">
+                                <h1
+                                    style={{ fontFamily: "'Poppins', sans-serif" }}
+                                    className="text-3xl md:text-3xl font-semibold mb-2"
+                                >
+                                    Window Detailing
+                                </h1>
+                                <p className="text-lg md:text-xl">Crystal-clear windows to brighten your home or business with expert detailing.</p>
+                            </div>
+                        </Link>
 
                         {/* Roof Cleaning */}
-                        <section className="text-center">
+                        <Link to="/services" className="text-center p-4 rounded-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
                             <img
                                 src={RoofCleaningPhoto1}
                                 alt="Roof Cleaning"
-                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
+                                className="w-full h-[450px] object-cover mx-auto mb-4 rounded-lg"
                             />
-                            <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
-                                Roof Cleaning
-                            </h1>
-                            <p className="font-light text-lg md:text-xl text-black">
-                                Roof cleaning removes dirt, algae, and moss, enhancing your roof's appearance and extending its lifespan.
-                            </p>
-                            <p className="font-light text-lg md:text-xl text-black mt-2">
-                                <strong>Starting Price for Roof Cleaning: $250</strong>
-                            </p>
-                        </section>
+                            <div className="bg-blue-200 text-black p-4 rounded-lg">
+                                <h1
+                                    style={{ fontFamily: "'Poppins', sans-serif" }}
+                                    className="text-3xl md:text-3xl font-semibold mb-2"
+                                >
+                                    Roof Cleaning
+                                </h1>
+                                <p className="text-lg md:text-xl">Remove debris, algae, and moss from your roof for improved longevity and appearance.</p>
+                            </div>
+                        </Link>
 
                         {/* Surface Cleaning */}
-                        <section className="text-center">
+                        <Link to="/services" className="text-center p-4 rounded-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
                             <img
                                 src={SurfaceCleaningPhoto}
                                 alt="Surface Cleaning"
-                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
+                                className="w-full h-[450px] object-cover mx-auto mb-4 rounded-lg"
                             />
-                            <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
-                                Surface Cleaning
-                            </h1>
-                            <p className="font-light text-lg md:text-xl text-black">
-                                Surface cleaning provides a deep clean for patios, driveways, and other outdoor surfaces.
-                            </p>
-                            <p className="font-light text-lg md:text-xl text-black mt-2">
-                                <strong>Starting Price for Surface Cleaning: $180</strong>
-                            </p>
-                        </section>
+                            <div className="bg-blue-200 text-black p-4 rounded-lg">
+                                <h1
+                                    style={{ fontFamily: "'Poppins', sans-serif" }}
+                                    className="text-3xl md:text-3xl font-semibold mb-2"
+                                >
+                                    Surface Cleaning
+                                </h1>
+                                <p className="text-lg md:text-xl">Professional cleaning of a wide range of surfaces, ensuring pristine results.</p>
+                            </div>
+                        </Link>
 
                         {/* Solar Panel Cleaning */}
-                        <section className="text-center">
+                        <Link to="/services" className="text-center p-4 rounded-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
                             <img
                                 src={SolarPanelCleaningPhoto}
                                 alt="Solar Panel Cleaning"
-                                className="w-full h-48 object-cover mx-auto mb-4 rounded-lg"
+                                className="w-full h-[450px] object-cover mx-auto mb-4 rounded-lg"
                             />
-                            <h1 className="text-3xl md:text-4xl font-semibold text-[#003049] mb-2">
-                                Solar Panel Cleaning
-                            </h1>
-                            <p className="font-light text-lg md:text-xl text-black">
-                                Regular cleaning of solar panels ensures maximum efficiency by removing dirt and debris that can obstruct sunlight.
-                            </p>
-                            <p className="font-light text-lg md:text-xl text-black mt-2">
-                                <strong>Starting Price for Solar Panel Cleaning: $120</strong>
-                            </p>
-                        </section>
-
+                            <div className="bg-blue-200 text-black p-4 rounded-lg">
+                                <h1
+                                    style={{ fontFamily: "'Poppins', sans-serif" }}
+                                    className="text-3xl md:text-3xl font-semibold mb-2"
+                                >
+                                    Solar Panel Cleaning
+                                </h1>
+                                <p className="text-lg md:text-xl">Enhance the efficiency of your solar panels by keeping them clean and free from dirt.</p>
+                            </div>
+                        </Link>
                     </div>
 
                     {/* Single "See More Information" Button */}

@@ -9,4 +9,11 @@
     margin-bottom: 10px;
     grid-row-end: span 2; /* Span items vertically to create masonry effect */
   }
+  @font-face {
+    font-family: 'Torus Pro';
+    src: url('/fonts/TorusPro-SemiBold.woff2') format('woff2'),
+         url('/fonts/TorusPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
   
